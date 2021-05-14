@@ -8,19 +8,75 @@
     <title>Active Box</title>
     <link rel="preconnect" href="https://fonts.gstatic.com">
     <link
-        href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans&family=Raleway:wght@400;600;700&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Cardo:ital@1&family=Open+Sans&family=Raleway:wght@400;600;700;300&display=swap"
         rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
 </head>
 
 <body>
+    <svg style="display: none;">
+        <symbol id="facebook" viewBox="0 0 48.605 48.605" >
+            <g>
+                <path d="M34.094,8.688h4.756V0.005h-8.643c-0.721-0.03-9.51-0.198-11.788,8.489c-0.033,0.091-0.761,2.157-0.761,6.983l-7.903,0.024
+                v9.107l7.913-0.023v24.021h12.087v-24h8v-9.131h-8v-2.873C29.755,10.816,30.508,8.688,34.094,8.688z M35.755,17.474v5.131h-8v24
+                h-8.087V22.579l-7.913,0.023v-5.107l7.934-0.023l-0.021-1.017c-0.104-5.112,0.625-7.262,0.658-7.365
+                c1.966-7.482,9.473-7.106,9.795-7.086l6.729,0.002v4.683h-2.756c-4.673,0-6.338,3.054-6.338,5.912v4.873L35.755,17.474
+                L35.755,17.474z" />
+            </g>
+        </symbol>
+        <symbol id="twitter" viewBox="0 0 511.271 511.271" >
+            <g>
+                <path d="M508.342,94.243c-2.603-2.603-6.942-3.471-10.414-2.603l-17.356,6.075c10.414-12.149,17.356-25.166,21.695-37.315
+                    c1.736-4.339,0.868-7.81-1.736-10.414c-2.603-2.603-6.942-3.471-10.414-1.736c-24.298,10.414-45.125,19.092-62.481,24.298
+                    c0,0.868-0.868,0-1.736,0c-13.885-7.81-47.729-25.166-72.027-25.166c-61.614,0.868-111.078,52.936-111.078,116.285v3.471
+                    c-90.251-17.356-139.715-43.39-193.519-99.797L40.6,58.663l-5.207,10.414c-29.505,56.407-8.678,107.607,25.166,142.319
+                    c-15.62-2.603-26.034-7.81-35.58-15.62c-3.471-2.603-7.81-3.471-12.149-0.868c-3.471,1.736-5.207,6.942-4.339,11.281
+                    c12.149,40.786,42.522,73.763,75.498,93.722c-15.62,0-28.637-1.736-41.654-10.414c-3.471-1.736-8.678-1.736-12.149,0.868
+                    s-5.207,6.942-3.471,11.281c15.62,44.258,45.993,67.688,94.59,73.763c-25.166,14.753-58.142,26.902-109.342,27.77
+                    c-5.207,0-9.546,3.471-11.281,7.81c-1.736,5.207,0,9.546,3.471,13.017c31.241,25.166,100.664,39.919,186.576,39.919
+                    c152.732,0,277.695-136.244,277.695-303.729v-2.603c19.092-9.546,34.712-27.77,42.522-52.936
+                    C511.813,101.185,510.945,96.846,508.342,94.243z M456.274,143.707l-5.207,1.736v14.753
+                    c0,157.939-117.153,286.373-260.339,286.373c-78.97,0-131.905-13.017-160.542-26.902c59.878-4.339,94.59-23.431,121.492-44.258
+                    l21.695-15.62h-26.034c-49.464,0-79.837-13.885-97.193-46.861c15.62,5.207,32.108,5.207,50.332,4.339
+                    c6.942-0.868,13.885-0.868,20.827-0.868l2.603-17.356c-32.976-9.546-72.027-39.051-91.119-78.969
+                    c17.356,7.81,36.447,9.546,53.803,9.546h26.902L91.8,213.999c-18.224-13.017-72.027-59.01-45.993-124.963
+                    c55.539,54.671,108.475,79.837,203.932,97.193l10.414,1.736v-24.298c0-53.803,41.654-98.061,93.722-98.929
+                    c19.959-0.868,52.936,17.356,62.481,22.563c5.207,2.603,10.414,3.471,15.62,1.736c13.017-4.339,28.637-10.414,45.993-17.356
+                    c-7.81,13.017-18.224,25.166-32.108,36.448c-3.471,2.603-4.339,7.81-2.603,12.149c1.736,4.339,6.942,6.075,11.281,4.339
+                    l33.844-11.281C482.308,124.616,472.762,137.633,456.274,143.707z"/>
+            </g>
+        </symbol>
+        <symbol id="linkedin" viewBox="0 0 511.271 511.271" >
+            <g>
+                <path d="M68.12,4.267c-18.773,0-35.84,6.827-48.64,19.627C5.827,37.547-1,54.613-1,72.533c0,18.773,7.68,35.84,20.48,48.64
+                    c12.8,12.8,30.72,20.48,47.787,19.627c0,0,0.853,0,1.707,0c17.067,0,33.28-6.827,46.08-19.627
+                    c12.8-12.8,20.48-29.867,20.48-48.64c0.853-17.92-6.827-34.987-19.627-47.787C103.107,11.093,86.04,4.267,68.12,4.267z
+                     M103.107,109.227c-9.387,9.387-22.187,15.36-35.84,14.507c-12.8,0-26.453-5.12-35.84-14.507
+                    c-10.24-9.387-15.36-23.04-15.36-36.693s5.12-26.453,15.36-36.693c9.387-9.387,22.187-14.507,36.693-14.507
+                    c12.8,0,25.6,5.12,34.987,14.507c10.24,10.24,15.36,23.04,15.36,36.693S113.347,99.84,103.107,109.227z"/>
+                <path d="M101.4,157.867H32.28c-13.653,0-24.747,11.093-24.747,25.6v298.667c0,13.653,11.947,25.6,25.6,25.6H101.4
+                    c13.653,0,25.6-11.947,25.6-24.747v-299.52C127,169.813,115.053,157.867,101.4,157.867z M109.933,482.987
+                    c0,4.267-4.267,7.68-8.533,7.68H33.133c-4.267,0-8.533-4.267-8.533-8.533V183.467c0-4.267,3.413-8.533,7.68-8.533h69.12
+                    c4.267,0,8.533,4.267,8.533,8.533V482.987z"/>
+                <path d="M391.533,149.333h-17.92c-33.28,0-64.853,14.507-85.333,37.547v-11.947c0-8.533-8.533-17.067-17.067-17.067H185.88
+                    c-7.68,0-17.067,6.827-17.067,16.213v318.293c0,9.387,9.387,15.36,17.067,15.36h93.867c7.68,0,17.067-5.973,17.067-15.36v-184.32
+                    c0-28.16,20.48-50.347,46.933-50.347c13.653,0,26.453,5.12,35.84,14.507c8.533,7.68,11.947,19.627,11.947,34.987v183.467
+                    c0,8.533,8.533,17.067,17.067,17.067h85.333c8.533,0,17.067-8.533,17.067-17.067v-220.16
+                    C511,202.24,458.947,149.333,391.533,149.333z M493.933,489.813l-0.853,0.853h-83.627L408.6,307.2
+                    c0-20.48-5.12-35.84-16.213-46.933c-12.8-12.8-29.867-19.627-47.787-19.627c-35.84,0.853-64,29.867-64,67.413v182.613h-93.867
+                    V174.933h84.48l0.853,0.853v53.76l23.04-23.04l0.853-0.853c17.067-23.893,46.933-39.253,78.507-39.253h17.92
+                    c57.173,0,101.547,46.08,101.547,104.107V489.813z"/>
+            </g>
+        </symbol>
+    </svg>
 
+    <!-- Header -->
 <header class="header">
     <div class="container">
         <div class="header__inner">
-            
+
             <img src="./img/logo.png" alt="" class="header__img">
-            
+
             <nav>
                 <a href="#" class="nav__item">FEATURES</a>
                 <a href="#" class="nav__item">WORKS</a>
@@ -33,6 +89,8 @@
     </div>
 </header>
 
+<!-- Header  -->
+
 <!-- Intro -->
 <div class="intro">
     <div class="container">
@@ -41,7 +99,7 @@
                 YOUR FAVORITE ONE PAGE
                 MULTI PURPOSE TEMPLATE
             </h2>
-            <p class="intro__text">Lorem ipsum dolor sit amet, consectetur 
+            <p class="intro__text">Lorem ipsum dolor sit amet, consectetur
                 adipiscing elit. Praesent commodo cursus magna
                 vel scelerisque nisl consectetur et.
             </p>
@@ -61,8 +119,8 @@
                 <h2 class="features__title">EASILY CUSTOMISED</h2>
                 <p class="features__text">
                     Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                     Nullam quis risus eget urna mollis ornare vel eu leo.
-                      Donec ullamcorper nulla non metus auctor fringilla.
+                    Nullam quis risus eget urna mollis ornare vel eu leo.
+                    Donec ullamcorper nulla non metus auctor fringilla.
                 </p>
             </div>
             <div class="features__item">
@@ -70,8 +128,8 @@
                 <h2 class="features__title">EASILY CUSTOMISED</h2>
                 <p class="features__text">
                     Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                     Nullam quis risus eget urna mollis ornare vel eu leo.
-                      Donec ullamcorper nulla non metus auctor fringilla.
+                    Nullam quis risus eget urna mollis ornare vel eu leo.
+                    Donec ullamcorper nulla non metus auctor fringilla.
                 </p>
             </div>
             <div class="features__item">
@@ -79,8 +137,8 @@
                 <h2 class="features__title">EASILY CUSTOMISED</h2>
                 <p class="features__text">
                     Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                     Nullam quis risus eget urna mollis ornare vel eu leo.
-                      Donec ullamcorper nulla non metus auctor fringilla.
+                    Nullam quis risus eget urna mollis ornare vel eu leo.
+                    Donec ullamcorper nulla non metus auctor fringilla.
                 </p>
             </div>
             <div class="features__item">
@@ -88,8 +146,8 @@
                 <h2 class="features__title">EASILY CUSTOMISED</h2>
                 <p class="features__text">
                     Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                     Nullam quis risus eget urna mollis ornare vel eu leo.
-                      Donec ullamcorper nulla non metus auctor fringilla.
+                    Nullam quis risus eget urna mollis ornare vel eu leo.
+                    Donec ullamcorper nulla non metus auctor fringilla.
                 </p>
             </div>
             <div class="features__item">
@@ -97,8 +155,8 @@
                 <h2 class="features__title">EASILY CUSTOMISED</h2>
                 <p class="features__text">
                     Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                     Nullam quis risus eget urna mollis ornare vel eu leo.
-                      Donec ullamcorper nulla non metus auctor fringilla.
+                    Nullam quis risus eget urna mollis ornare vel eu leo.
+                    Donec ullamcorper nulla non metus auctor fringilla.
                 </p>
             </div>
             <div class="features__item">
@@ -106,8 +164,8 @@
                 <h2 class="features__title">EASILY CUSTOMISED</h2>
                 <p class="features__text">
                     Cras justo odio, dapibus ac facilisis in, egestas eget quam.
-                     Nullam quis risus eget urna mollis ornare vel eu leo.
-                      Donec ullamcorper nulla non metus auctor fringilla.
+                    Nullam quis risus eget urna mollis ornare vel eu leo.
+                    Donec ullamcorper nulla non metus auctor fringilla.
                 </p>
             </div>
         </div>
@@ -115,6 +173,7 @@
 </div>
 <!-- Features -->
 
+<!-- Works -->
 <div class="works">
     <div class="works__item">
         <img src="./img/works/Layer 35.png" class="works__icon" alt="">
@@ -173,7 +232,9 @@
         </div>
     </div>
 </div>
+<!-- Works  -->
 
+<!-- Team -->
 <div class="team">
     <div class="container">
         <div class="team__inner">
@@ -182,22 +243,210 @@
                 <h4 class="team__name">Ruth Woods</h4>
                 <span class="team__sphere">CO-FOUNDER, DEVELOPER</span>
                 <p class="team__text">
-                    Fusce dapibus, tellus ac cursus commodo, tortor mauris 
-                    condimentum nibh, ut fermentum massa justo sit amet risus. 
-                    Maecenas sed diam eget risus varius blandit sit amet non magna. 
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh, ut fermentum massa justo sit amet risus.
+                    Maecenas sed diam eget risus varius blandit sit amet non magna.
                     Nullam quis risus eget urna mollis ornare vel eu leo.
-                </p>              
+                </p>
                 <div class="social">
-                    <div class="social__item">
-                        <a href="#">
-                            <img src="./img/icons/facebook.svg" alt="">
-                        </a>
-                    </div>
-                </div> 
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
             </div>
-        </div>        
+            <div class="team__item">
+                <img src="./img/team/Layer 32.png" alt="" class="team__image">
+                <h4 class="team__name">Ruth Woods</h4>
+                <span class="team__sphere">CO-FOUNDER, DEVELOPER</span>
+                <p class="team__text">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh, ut fermentum massa justo sit amet risus.
+                    Maecenas sed diam eget risus varius blandit sit amet non magna.
+                    Nullam quis risus eget urna mollis ornare vel eu leo.
+                </p>
+                <div class="social">
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="team__item">
+                <img src="./img/team/Layer 33.png" alt="" class="team__image">
+                <h4 class="team__name">Ruth Woods</h4>
+                <span class="team__sphere">CO-FOUNDER, DEVELOPER</span>
+                <p class="team__text">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh, ut fermentum massa justo sit amet risus.
+                    Maecenas sed diam eget risus varius blandit sit amet non magna.
+                    Nullam quis risus eget urna mollis ornare vel eu leo.
+                </p>
+                <div class="social">
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+            <div class="team__item">
+                <img src="./img/team/Layer 30.png" alt="" class="team__image">
+                <h4 class="team__name">Ruth Woods</h4>
+                <span class="team__sphere">CO-FOUNDER, DEVELOPER</span>
+                <p class="team__text">
+                    Fusce dapibus, tellus ac cursus commodo, tortor mauris
+                    condimentum nibh, ut fermentum massa justo sit amet risus.
+                    Maecenas sed diam eget risus varius blandit sit amet non magna.
+                    Nullam quis risus eget urna mollis ornare vel eu leo.
+                </p>
+                <div class="social">
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
+
+<!-- Team -->
+
+<!-- Testimonials  -->
+<div class="reviews">
+    <div class="container">
+
+        <div class="reviews__item">
+            <div class="reviews__photo">
+                <img src="./img/reviews/Clip.png" alt="" class="reviews__img">
+            </div>
+            <div class="reviews__content">
+                <div class="reviews__text">
+                    “Integer posuere erat a ante venenatis 
+                    dapibus posuere velit aliquet. Donec sed odio dui. 
+                    Aenean eu leo quam...”
+                </div>
+                <div class="reviews__author">
+                    SUSAN SIMS, INTERACTION DESIGNER AT XYZ
+                </div>
+            </div>
+        </div>
+
+    </div>
+</div>
+<!-- Testimonials  -->
+
+<!-- Download  -->
+<div class="download">
+    <div class="conatiner">
+        <h3 class="download__title">
+            Are You Ready to Start? Download Now For Free!
+        </h3>
+        <div class="download__text">
+            FUSCE DAPIBUS, TELLUS AC CURSUS COMMODO
+        </div>
+        <a href="#" class="btn btn--long btn--red ">DOWNLOAD HERE</a>
+    </div>
+</div>
+<!-- Download  -->
+
+<!-- footer  -->
+<footer class="footer">
+    <div class="container">
+
+        <div class="footer__inner">
+            <div class="footer__block">
+                <h4 class="footer__title">LOCATION</h4>
+                <address>
+                    <p>3481 Melrose Place</p>                        
+                    <p>Beverly Hills, CA 90210</p>
+                </address>
+                
+            </div>
+            <div class="footer__block">
+                <h4 class="footer__title">SHARE WITH LOVE</h4>
+                <div class="social social--footer">
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#facebook"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#twitter"></use>
+                        </svg>
+                    </a>
+                    <a href="#" class="social__item">
+                        <svg class="social__icon">
+                            <use xlink:href="#linkedin"></use>
+                        </svg>
+                    </a>
+                </div>               
+            </div>
+            <div class="footer__block">
+                <h4 class="footer__title">ABOUT ACTIVEBOX</h4>
+                <div class="footer__about">
+                    <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam.</p>
+                    <p>Donec ullamcorper nulla non metus auctor fringilla.</p>
+                
+                </div>
+                
+            </div>
+        </div>
+
+    </div> <!-- conatiner -->
+    <div class="footer__copyright">
+        <div class="container">
+            <div>Copyright © 2015 ActiveBox. All Rights Reserved</div>
+            <div>Made with Y by <span class="copyright__name">Kamal Chaneman</span></div>
+        </div>
+    </div>
+</footer>
+<!-- footer  -->
 
 
 </body>

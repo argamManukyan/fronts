@@ -112,6 +112,7 @@ header {
     padding: 15px 40px;
     border-radius: 2px;
     transition: .1s linear;
+    text-align: center;
 }
 
 .btn--red {
@@ -122,6 +123,9 @@ header {
     background-color: rgb(206, 52, 52);
 }
 
+.btn--long {
+    min-width: 280px;
+}
 
 .featores__inner {
     display: flex;
@@ -253,9 +257,176 @@ header {
 
 .social {
     display: flex;
-
+    margin-top: 50px;
 }
 
 .social__item {
+    height: 40px;
+    width: 40px;
+    border: 1px solid #E8ECEE;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 5px;
+}
+.social__item:first-child {
+    margin-left: 0;
+
+}
+
+.social__icon {
+    fill: #6C7279;
+    padding: 11px 11px;
+    transition: .1s linear;
+}
+
+
+.social__icon:hover {
+    fill: #4f5862;
+    padding: 11px 11px;
     
 }
+.social--footer {
+    margin-top: 23px;
+    justify-content: center;
+    border-width: 2px;
+    border-color: #fff;
+    border-radius: 2px;
+
+}
+.social--footer .social__icon{
+    fill: #FFFFFF;
+   
+}
+
+/* Reviews  */
+
+.reviews {
+    overflow: hidden;
+    background-color: #53354A;
+   
+}
+
+.reviews__item {
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+
+.reviews__photo {
+    width: 50%;
+    position: relative;
+    height: 500px;
+    
+}
+.reviews__img {
+    top: 50%;
+    right: 0;
+    z-index: 1000;
+    position: absolute;
+    transform: translateY(-50%);
+}
+
+.reviews__content {
+    padding: 84px;
+    width: 50%;    
+    left: 0;
+    top: 0;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.reviews__text {
+    font-family: "Cardo",sans-serif;
+    font-size: 36px;
+    line-height: 42px;
+    font-style: italic;
+}
+
+.reviews__author {
+    margin-top: 40px;
+    font-size: 13px;
+    line-height: 21px;
+    font-weight: 700;
+    font-family: inherit;
+}
+
+/* Reviews  */
+
+/* Download  */
+
+.download {
+    margin: 90px 0;
+    text-align: center;
+}
+
+.download__title {
+    color:#000;
+    font-size: 28px;
+    font-weight: 300;
+    margin-bottom: 13px;
+}
+.download__text {
+    font-size: 13px;
+    font-weight: 21px;
+    text-transform: uppercase;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+
+/* Download  */
+
+/* Footer  */
+
+.footer {
+    
+    background-color: #3A3E64;
+}
+
+.footer__inner {
+    padding: 70px 0;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.footer__block {
+    width: 33.33333%;
+    text-align: center;
+}
+
+.footer__title {
+    text-transform: uppercase;
+    font-size: 14px;
+    line-height: 16.8px;
+    font-weight: 700;
+    color: #fff;
+}
+
+address {
+    margin-top: 23px;
+    font-style: normal;
+    color: #8689A0;
+    font-size: 14px;
+    line-height: 22.5px;
+}
+
+.footer__about {
+    margin-top: 23px;
+    color: #9092A8;
+}
+
+
+.footer__copyright {
+    background-color: #313454;
+    padding: 25px 0;
+    color: #76767A;
+    text-align: center;
+}
+
+.copyright__name {
+    color: #fff;
+}
+
+/* Footer  */
